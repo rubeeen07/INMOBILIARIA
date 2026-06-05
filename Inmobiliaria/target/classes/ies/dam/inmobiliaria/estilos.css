@@ -1,0 +1,78 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f4f7fb;
+}
+
+.cabecera {
+    -fx-background-color: #24476b;
+}
+
+.titulo {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.subtitulo {
+    -fx-font-size: 14px;
+    -fx-text-fill: #e6edf5;
+}
+
+.panel-busqueda {
+    -fx-padding: 15;
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: #d6dee8;
+    -fx-border-radius: 10;
+    -fx-alignment: center-left;
+}
+
+.etiqueta {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.boton-principal {
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 7;
+    -fx-padding: 8 14 8 14;
+}
+
+.boton-principal:hover {
+    -fx-background-color: #256628;
+}
+
+.boton-secundario {
+    -fx-background-color: #607d8b;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 7;
+    -fx-padding: 8 14 8 14;
+}
+
+.boton-secundario:hover {
+    -fx-background-color: #4f6874;
+}
+
+.mensaje-info {
+    -fx-text-fill: #24476b;
+    -fx-font-weight: bold;
+}
+
+.mensaje-ok {
+    -fx-text-fill: #2e7d32;
+    -fx-font-weight: bold;
+}
+
+.mensaje-error {
+    -fx-text-fill: #c62828;
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #d6dee8;
+    -fx-border-radius: 8;
+}
